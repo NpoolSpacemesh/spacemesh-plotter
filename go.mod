@@ -17,6 +17,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/spacemeshos/bitstream v0.0.0-20210407173523-8168e84f83b0 // indirect
+	github.com/spacemeshos/go-spacemesh v0.1.45 // indirect
 	github.com/spacemeshos/post v0.0.0-20210831133238-ba63963269a7
 	github.com/spacemeshos/smutil v0.0.0-20190604133034-b5189449f5c5 // indirect
 	github.com/stretchr/objx v0.3.0 // indirect
