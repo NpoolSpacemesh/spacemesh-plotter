@@ -19,6 +19,9 @@ ldconfig
 
 ## spacemesh-plotter build
 ```
+cd /home/test
+git clone https://github.com/NpoolSpacemesh/spacemesh-plotter.git
+cd spacemesh-plotter/
 go build
 mkdir plot
 把postdata_metadata.json拷贝至plot目录下
