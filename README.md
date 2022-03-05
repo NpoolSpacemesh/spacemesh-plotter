@@ -22,9 +22,10 @@ ldconfig
 cd /home/test
 git clone https://github.com/NpoolSpacemesh/spacemesh-plotter.git
 cd spacemesh-plotter/
+修改plot.go中LabelsPerUnit参数
 go build
 mkdir plot
 把postdata_metadata.json拷贝至plot目录下
-
 time ./spacemesh-plotter
+time CUDA_VISIBLE_DEVICES=1 ./spacemesh-plotter
 ```
